@@ -1,8 +1,9 @@
 *{
     font-family: 'Roboto', sans-serif;
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
+}
+body {
+    max-width: 1440px;
 }
 a {
     text-decoration: none;
@@ -132,7 +133,7 @@ header nav a {
 
 .course article figure {
     margin: 16px;
-    width: 26%;
+    width: 28%;
     background-color: white;
 }
 
@@ -197,7 +198,7 @@ footer nav a {
     color: grey;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     header figure,nav.desktop{
         display: none;
     }
@@ -206,7 +207,6 @@ footer nav a {
         display: flex;
         justify-content: space-between;
     }
-
     .banner {
         flex-direction: column;
     }
@@ -273,12 +273,7 @@ footer nav a {
     .thesis-content aside {
         display: none;
     }
-
     footer nav {
         display: none;
     }
-}
-
-@media only screen and (max-width: 425px) {
-
 }
