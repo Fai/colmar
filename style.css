@@ -113,7 +113,7 @@ header nav a {
     align-items: center;
 }
 .information aside figure:hover {
-    background-color: #dfdfdf;;
+    background-color: #dfdfdf;
   }
 .information aside figure img {
     width: 35%;
@@ -122,6 +122,10 @@ header nav a {
 }
 .information aside figcaption {
     width: 65%;
+}
+.information aside figcaption h3 {
+    margin: 0px;
+    padding: 16px 0px;
 }
 
 .course {
@@ -264,6 +268,9 @@ footer nav a {
         width: 100%;
         padding: 0px 16px;
     }
+    .course {
+        background-color: white;
+    }
     .course article {
         margin: 0px;
         padding: 16px;
@@ -274,7 +281,13 @@ footer nav a {
     .course article figure {
         width: 100%;
         margin: 8px 0px;
-
+        background-color: #dfdfdf;
+    }
+    .course article figcaption {
+        padding: 0px;
+    }
+    .course article figcaption h3{
+        padding: 0px;
     }
     .course article figure img {
         display: none;
