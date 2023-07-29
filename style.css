@@ -1,0 +1,277 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #3c3b3d;
+}
+figure {
+    margin: 0px;
+}
+figcaption p {
+    color: grey; 
+}
+header nav.mobile {
+    display: none;
+}
+header {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header figure {
+    display: flex;
+    height: 32px;
+}
+header figcaption {
+    align-self: center;
+    font-size: 24px;
+    color: grey;
+}
+header figcaption strong {
+    color: #3c3b3d;
+}
+header nav {
+    padding-right: 24px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header nav a {
+    padding-left: 16px;
+    font-size: auto;
+}
+
+.banner {
+    display: flex;
+    background-color: rgb(207,207,207);
+}
+.banner figure {
+    width: 60%;
+    margin: 32px 24px;
+}
+.banner figure img {
+    width: 100%;
+}
+.banner article {
+    width: 40%;
+    margin-right: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner a {
+    display: inline;
+    text-align: center;
+    padding: 8px 0px;
+    background-color: rgb(57,57,57);
+    color: white;
+}
+.banner p {
+    margin-bottom: 24px;
+}
+
+.information {
+    width: 100%;
+    display: flex;
+    margin: 32px 24px;
+}
+.information a {
+    color: #65A0E5;;
+}
+.information article {
+    width: 60%;
+    margin: 0px;
+}
+.information article figure img {
+    width: 100%;
+    margin: 0px;
+}
+.information aside {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.information aside figure {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+.information aside figure img {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+.information aside figcaption {
+    width: 65%;
+}
+
+.course {
+    width: 100%;
+    background-color: rgb(207,207,207); 
+}
+
+.course h2 {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 32px;
+    text-align: center;
+}
+
+.course article {
+    width: 100%;
+    padding: 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course article figure {
+    margin: 16px;
+    width: 26%;
+    background-color: white;
+}
+
+.course article figure img {
+    width: 100%;
+    height: auto;
+}
+
+.course article figcaption {
+    padding: 16px;
+}
+.course article figcaption h3,p {
+    margin: 0px;
+    padding-bottom: 8px;
+}
+
+.thesis h2 {
+    text-align: center;
+}
+
+.thesis-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thesis-content article {
+    width: 60%;
+}
+.thesis-content article figure video {
+    width: 100%;
+}
+
+.thesis-content aside {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.thesis-content aside figure {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+.thesis-content aside figure img {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+.thesis-content aside figcaption {
+    width: 65%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 24px;
+    color: grey;
+}
+
+footer nav a {
+    color: grey;
+}
+
+@media only screen and (max-width: 768px) {
+    header figure,nav.desktop{
+        display: none;
+    }
+    header nav.mobile{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+    .banner figure , .banner article{
+        width: 100%;
+        margin: 0px;
+        align-self: center;
+    }
+    .banner article h1 {
+        font-size: 200%;
+        margin: 32px 16px;
+    }
+    .banner article p {
+        font-size: 120%;
+        margin: 0px 16px 24px 16px;
+    }
+    .banner article a {
+        margin: 0px 16px 32px 16px;
+    }
+
+    .information article {
+        display: none;
+    }
+    .information aside {
+        width: 100%;
+    }
+    .information aside figure {
+        flex-direction: column;
+        margin: 0px;
+    }
+    .information aside figure img {
+        width: 100%;
+    }
+    .information aside figure figcaption {
+        width: 100%;
+    }
+    .course article {
+        margin: 16px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .course article figure {
+        width: 100%;
+        margin: 8px 0px;
+    }
+    .course article figure img {
+        display: none;
+    }
+    .course article figure p {
+        display: none;
+    }
+    .thesis-content article {
+        width: 100%;
+    }
+    .thesis-content article figure figcaption {
+        display: none;
+    }
+    .thesis-content aside {
+        display: none;
+    }
+
+    footer nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+}
